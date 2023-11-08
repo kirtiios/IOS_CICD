@@ -35,7 +35,7 @@
 		45BC46D82AFB98B400C93475 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 45BC46D72AFB98B400C93475 /* FirebaseRemoteConfigSwift */; };
 		45BC46DA2AFB98B400C93475 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 45BC46D92AFB98B400C93475 /* FirebaseStorage */; };
 		45BC46DC2AFB98B400C93475 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 45BC46DB2AFB98B400C93475 /* FirebaseStorageCombine-Community */; };
-		45BC46DE2AFB9E4100C93475 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45BC46DD2AFB9E4100C93475 /* GoogleService-Info.plist */; };
+		45BC46E02AFBC50A00C93475 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45BC46DF2AFBC50A00C93475 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +47,7 @@
 		45BC46A52AFB891600C93475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45BC46A82AFB891600C93475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45BC46AA2AFB891600C93475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45BC46DD2AFB9E4100C93475 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45BC46DF2AFBC50A00C93475 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 		45BC469B2AFB891400C93475 /* IOS_CICD */ = {
 			isa = PBXGroup;
 			children = (
-				45BC46DD2AFB9E4100C93475 /* GoogleService-Info.plist */,
+				45BC46DF2AFBC50A00C93475 /* GoogleService-Info.plist */,
 				45BC469C2AFB891400C93475 /* AppDelegate.swift */,
 				45BC469E2AFB891400C93475 /* SceneDelegate.swift */,
 				45BC46A02AFB891400C93475 /* ViewController.swift */,
@@ -200,9 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45BC46A92AFB891600C93475 /* LaunchScreen.storyboard in Resources */,
+				45BC46E02AFBC50A00C93475 /* GoogleService-Info.plist in Resources */,
 				45BC46A62AFB891600C93475 /* Assets.xcassets in Resources */,
 				45BC46A42AFB891400C93475 /* Main.storyboard in Resources */,
-				45BC46DE2AFB9E4100C93475 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
