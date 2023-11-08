@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         FirebaseApp.configure()
+        //ss
         // Do any additional setup after loading the view.
     }
 
