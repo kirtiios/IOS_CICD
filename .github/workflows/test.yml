@@ -1,1 +1,11 @@
-x
+name: test
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build_ipa:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
