@@ -6,9 +6,16 @@ on:
 jobs:
   build_ipa:
     runs-on: macos-latest
+    
+  distribute-ios:
+    needs: build-ios # This is important
+    runs-on: ubuntu-latest
+    
     steps:
       - name: check Xcode version
         run: /usr/bin/xcodebuild -version
+        
+ 
         
       - name: Checkout code
         uses: actions/checkout@v2
